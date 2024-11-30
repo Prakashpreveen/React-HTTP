@@ -22,7 +22,6 @@ export class PostForm extends Component {
       .then((response) => console.log(response))
       .catch((error) => console.log(error));
   };
-
   render() {
     const { userid, title, body } = this.state;
     return (
