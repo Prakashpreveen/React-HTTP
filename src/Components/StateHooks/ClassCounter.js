@@ -8,13 +8,12 @@ class ClassCounter extends Component {
     };
   }
   IncrementedClick = () => {
-    this.setState((prevState) => {
-      return { count: prevState.count + 1 };
-    });
+    this.setState({ count: this.state.count + 1 });
   };
   render() {
     return (
       <div>
+        <h2 style={{ color: "red" }}>NORMAL CLASS COUNTER</h2>
         <button onClick={this.IncrementedClick}>
           Click {this.state.count}
         </button>

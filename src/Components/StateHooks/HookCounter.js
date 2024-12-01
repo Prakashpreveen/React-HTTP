@@ -4,7 +4,8 @@ function HookCounter() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Cling Cling {count}</button>
+      <h2 style={{ color: "red" }}>NORMAL FUNCTIONAL COUNTER</h2>
+      <button onClick={() => setCount(count + 1)}>Click {count}</button>
     </div>
   );
 }
