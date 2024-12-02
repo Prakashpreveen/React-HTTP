@@ -11,16 +11,17 @@ function HookCounterThree() {
             placeholder="FirstName"
             name="name"
             value={name.firstname}
-            onChange={(e) => SetName({ firstname: e.target.value })}
+            onChange={(e) => SetName({ ...name, firstname: e.target.value })}
           />
           <input
             placeholder="LastName"
             name="name"
             value={name.lastname}
-            onChange={(e) => SetName({ lastname: e.target.value })}
+            onChange={(e) => SetName({ ...name, lastname: e.target.value })}
           />
           <h2>My First Name is {name.firstname}</h2>
           <h2>My Last Name is {name.lastname}</h2>
+          {/* <h2>{JSON.stringify(name)}</h2> */}
         </form>
       </>
     </div>

@@ -6,7 +6,12 @@ import "./App.css";
 import ClassCounter from "./Components/StateHooks/ClassCounter";
 import HookCounter from "./Components/StateHooks/HookCounter";
 import HookCounterTwo from "./Components/StateHooks/HookCounterTwo";
-import HookCounterThree from "./Components/HookCounterThree";
+import HookCounterThree from "./Components/StateHooks/HookCounterThree";
+import HookCounterFour from "./Components/StateHooks/HookCounterFour";
+// import EffectClassCounter from "./Components/UseEffectHooks/EffectClassCounter";
+import EffectHookCounter1 from "./Components/UseEffectHooks/EffectHookCounter1";
+
+// import Practice from "./Components/Practice";
 function App() {
   return (
     <div className="App">
@@ -16,6 +21,11 @@ function App() {
       <HookCounter />
       <HookCounterTwo />
       <HookCounterThree />
+      <HookCounterFour />
+      {/* <EffectClassCounter /> */}
+      <EffectHookCounter1 />
+
+      {/* <Practice /> */}
     </div>
   );
 }
