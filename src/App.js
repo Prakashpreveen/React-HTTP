@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
 
 // import PostList from "./Components/PostList";
 // import PostForm from "./Components/PostForm";
@@ -17,6 +18,7 @@ import "./App.css";
 // import IntervalHookCounter from "./Components/UseEffectHooks/IntervalHookCounter";
 // import DataFetch from "./Components/UseEffectHooks/DataFetch";
 import FetchData1 from "./Components/UseEffectHooks/FetchData1";
+// import ParentComponent from "./Components/UseContextHooks/UseContextHook";
 
 // import Practice from "./Components/Practice";
 function App() {
@@ -38,6 +40,7 @@ function App() {
       <IntervalHookCounter /> */}
       {/* <DataFetch /> */}
       <FetchData1 />
+      {/* <ParentComponent /> */}
 
       {/* <Practice /> */}
     </div>
