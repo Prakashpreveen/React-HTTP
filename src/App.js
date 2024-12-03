@@ -17,8 +17,10 @@ import React from "react";
 // import IntervalClassCounter from "./Components/UseEffectHooks/IntervalClassCounter";
 // import IntervalHookCounter from "./Components/UseEffectHooks/IntervalHookCounter";
 // import DataFetch from "./Components/UseEffectHooks/DataFetch";
-import FetchData1 from "./Components/UseEffectHooks/FetchData1";
+// import FetchData1 from "./Components/UseEffectHooks/FetchData1";
 // import ParentComponent from "./Components/UseContextHooks/UseContextHook";
+import StateCounterExample from "./Components/UseReducerHook/StateCounterExample";
+import UseReducerCounter from "./Components/UseReducerHook/UseReducerCounter";
 
 // import Practice from "./Components/Practice";
 function App() {
@@ -39,8 +41,10 @@ function App() {
       {/* <IntervalClassCounter />
       <IntervalHookCounter /> */}
       {/* <DataFetch /> */}
-      <FetchData1 />
+      {/* <FetchData1 /> */}
       {/* <ParentComponent /> */}
+      <StateCounterExample />
+      <UseReducerCounter />
 
       {/* <Practice /> */}
     </div>
