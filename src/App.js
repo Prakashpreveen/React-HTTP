@@ -22,7 +22,7 @@ import React from "react";
 import StateCounterExample from "./Components/UseReducerHook/StateCounterExample";
 import UseReducerCounter from "./Components/UseReducerHook/UseReducerCounter";
 
-// import Practice from "./Components/Practice";
+import Practice from "./Components/Practice";
 function App() {
   return (
     <div className="App">
@@ -46,7 +46,7 @@ function App() {
       <StateCounterExample />
       <UseReducerCounter />
 
-      {/* <Practice /> */}
+      <Practice />
     </div>
   );
 }
