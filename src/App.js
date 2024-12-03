@@ -22,9 +22,11 @@ import React from "react";
 // import StateCounterExample from "./Components/UseReducerHook/StateCounterExample";
 // import UseReducerCounter from "./Components/UseReducerHook/UseReducerCounterState";
 // import UseReducerCounterObject from "./Components/UseReducerHook/UseReducerCounterObject";
-import UseReducerCounterMultipleTimes from "./Components/UseReducerHook/UseReducerCounterMultipleTimes";
+// import UseReducerCounterMultipleTimes from "./Components/UseReducerHook/UseReducerCounterMultipleTimes";
+import AllComponents from "./Components/UseReducerHook/AllComponents";
 
 // import Practice from "./Components/Practice";
+
 function App() {
   return (
     <div className="App">
@@ -48,9 +50,12 @@ function App() {
       {/* <StateCounterExample />
       <UseReducerCounter /> */}
       {/* <UseReducerCounterObject /> */}
-      <UseReducerCounterMultipleTimes />
+      {/* <UseReducerCounterMultipleTimes /> */}
 
       {/* <Practice /> */}
+      <div className="Reducer&Context">
+        <AllComponents />
+      </div>
     </div>
   );
 }
