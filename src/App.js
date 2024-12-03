@@ -18,11 +18,13 @@ import React from "react";
 // import IntervalHookCounter from "./Components/UseEffectHooks/IntervalHookCounter";
 // import DataFetch from "./Components/UseEffectHooks/DataFetch";
 // import FetchData1 from "./Components/UseEffectHooks/FetchData1";
-// import ParentComponent from "./Components/UseContextHooks/UseContextHook";
-import StateCounterExample from "./Components/UseReducerHook/StateCounterExample";
-import UseReducerCounter from "./Components/UseReducerHook/UseReducerCounter";
+//import ParentComponent from "./Components/UseContextHooks/UseContextHook";
+// import StateCounterExample from "./Components/UseReducerHook/StateCounterExample";
+// import UseReducerCounter from "./Components/UseReducerHook/UseReducerCounterState";
+// import UseReducerCounterObject from "./Components/UseReducerHook/UseReducerCounterObject";
+import UseReducerCounterMultipleTimes from "./Components/UseReducerHook/UseReducerCounterMultipleTimes";
 
-import Practice from "./Components/Practice";
+// import Practice from "./Components/Practice";
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,7 @@ function App() {
       {/* <ClassCounter />
       <HookCounter />
       <HookCounterTwo />
-      <HookCounterThree />
+      <HookCounterThree />``
       <HookCounterFour /> */}
       {/* <EffectClassCounter /> */}
       {/* <EffectHookCounter1 />
@@ -43,10 +45,12 @@ function App() {
       {/* <DataFetch /> */}
       {/* <FetchData1 /> */}
       {/* <ParentComponent /> */}
-      <StateCounterExample />
-      <UseReducerCounter />
+      {/* <StateCounterExample />
+      <UseReducerCounter /> */}
+      {/* <UseReducerCounterObject /> */}
+      <UseReducerCounterMultipleTimes />
 
-      <Practice />
+      {/* <Practice /> */}
     </div>
   );
 }
